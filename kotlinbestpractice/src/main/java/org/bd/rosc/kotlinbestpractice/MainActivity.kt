@@ -3,7 +3,6 @@ package org.bd.rosc.kotlinbestpractice
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
-import android.widget.TextView
 import org.bd.rosc.kotlinbestpractice.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
