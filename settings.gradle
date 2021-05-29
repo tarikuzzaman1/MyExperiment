@@ -1,3 +1,5 @@
+include ':scoped_storage'
 include ':kotlinbestpractice'
 include ':app'
 rootProject.name = "My Experiment"
+include ':di_app'

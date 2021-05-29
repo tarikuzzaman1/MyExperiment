@@ -8,7 +8,7 @@ android {
   buildToolsVersion "30.0.3"
 
   defaultConfig {
-    applicationId "org.bd.rosc.myexperiment"
+    applicationId "org.bd.rosc.scoped_storage"
     minSdkVersion 23
     targetSdkVersion 30
     versionCode 1
@@ -31,7 +31,7 @@ android {
     jvmTarget = '1.8'
   }
   buildFeatures {
-    viewBinding = true
+    viewBinding true
   }
 }
 
@@ -45,6 +45,7 @@ dependencies {
   testImplementation 'junit:junit:4.13.2'
   androidTestImplementation 'androidx.test.ext:junit:1.1.2'
   androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
-
-  implementation "androidx.activity:activity-ktx:1.2.1"
+  // Kotlin
+  implementation 'androidx.activity:activity-ktx:1.3.0-alpha04'
+  implementation 'androidx.fragment:fragment-ktx:1.3.1'
 }
