@@ -3,3 +3,4 @@ include ':kotlinbestpractice'
 include ':app'
 rootProject.name = "My Experiment"
 include ':di_app'
+include ':app_works'
