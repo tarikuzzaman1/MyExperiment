@@ -4,3 +4,4 @@ include ':app'
 rootProject.name = "My Experiment"
 include ':di_app'
 include ':app_works'
+include ':parse_json'

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:id="@+id/nav_graph"
+  app:startDestination="@id/simpleFragment">
+
+  <fragment
+    android:id="@+id/simpleFragment"
+    android:name="org.bd.rosc.parse_json.SimpleJSONFragment"
+    android:label="@string/simple_json_fragment"
+    tools:layout="@layout/simple_json" />
+  <fragment
+    android:id="@+id/arrayFragment"
+    android:name="org.bd.rosc.parse_json.ArrayJSONFragment"
+    android:label="@string/array_json_fragment"
+    tools:layout="@layout/array_json" />
+  <fragment
+    android:id="@+id/nestedFragment"
+    android:name="org.bd.rosc.parse_json.NestedJSONFragment"
+    android:label="@string/nested_json_fragment"
+    tools:layout="@layout/nested_json" />
+</navigation>

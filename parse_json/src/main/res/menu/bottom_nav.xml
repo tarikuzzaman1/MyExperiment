@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+  <item
+    android:id="@+id/simpleFragment"
+    android:icon="@drawable/ic_simple"
+    android:title="@string/simple_json" />
+  <item
+    android:id="@+id/arrayFragment"
+    android:icon="@drawable/ic_array"
+    android:title="@string/array_json" />
+  <item
+    android:id="@+id/nestedFragment"
+    android:icon="@drawable/ic_nested"
+    android:title="@string/nested_json" />
+</menu>

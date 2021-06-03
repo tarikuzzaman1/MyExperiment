@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Parse JSON Android</string>
+    <string name="simple_json">Simple JSON</string>
+  <string name="array_json">Array JSON</string>
+  <string name="nested_json">Nested JSON</string>
+  <string name="simple_json_fragment">Simple JSON Fragment</string>
+  <string name="array_json_fragment">Array JSON Fragment</string>
+  <string name="nested_json_fragment">Nested JSON Fragment</string>
+</resources>
